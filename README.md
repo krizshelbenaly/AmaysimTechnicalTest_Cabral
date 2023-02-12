@@ -27,6 +27,8 @@ Please update ${driver_path} variable found in config.robot file to the location
 
 Running the tests:
 - 
+In the terminal/command line, go to the location of TestSuites directory
+
 For macOS, run the following command in the terminal:
 
     robot referralTests.robot
