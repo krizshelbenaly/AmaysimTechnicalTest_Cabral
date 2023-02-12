@@ -22,6 +22,7 @@ Navigate to Refer A Friend page
     click element    ${accountButton}
     wait until page contains element    ${iframeauth}    60
     select frame    ${iframeauth}
+    wait until page contains element    ${exitpopup}    60
     click element    ${exitpopup}
     wait until page contains element    ${cancelAuth}    60
     click element    ${cancelAuth}

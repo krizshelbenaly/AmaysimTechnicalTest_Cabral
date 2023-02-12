@@ -10,6 +10,7 @@ Resource    ../../Resources/TestData/locator.robot
 Verify unique link
     select frame    ${iFrameReferAFriend}
     wait until element is visible    ${uniqueLink}
+    sleep    2
     element should contain    ${uniqueLink}    http://r.amaysi.ms/
     unselect frame
     sleep    5
