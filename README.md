@@ -29,11 +29,11 @@ Running the tests:
 - 
 In the terminal/command line, go to the location of TestSuites directory
 
-For macOS, run the following command in the terminal:
+For macOS, run the following command:
 
     robot referralTests.robot
     
-For Windows, run the following in the command line:
+For Windows, run the following:
     
     python -m robot referralTests.robot
     
